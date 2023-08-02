@@ -11,7 +11,12 @@ The Window Form is defined in Myform.h and its functionalities in the MyForm.cpp
 ## Running the App
 
 In order to build the app you have to perform the following steps:
+
 -Install Microsoft Visual Studio (not vs code)
+
 -Intstall the workload of "Desktop development with C++" and ".NET desktop development"
+
 -Open the project file "Simulation_App.sln"
+
 -Build the App using the Play button at the top.
+
