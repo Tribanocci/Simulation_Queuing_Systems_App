@@ -18,7 +18,7 @@
     <ClCompile Include="MyForm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Documents\GitHub\Simulation_of_Queuing_System\test\SimulationModels.cpp">
+    <ClCompile Include="..\SimulationModels.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

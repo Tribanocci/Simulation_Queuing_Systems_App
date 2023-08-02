@@ -121,7 +121,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Documents\GitHub\Simulation_of_Queuing_System\test\SimulationModels.cpp" />
+    <ClCompile Include="..\SimulationModels.cpp" />
     <ClCompile Include="MyForm.cpp" />
   </ItemGroup>
   <ItemGroup>
