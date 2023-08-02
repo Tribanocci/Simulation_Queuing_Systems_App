@@ -1,22 +1,27 @@
 # Simulation_App
 
 ## Descprition of the App
-This is a Windowds App implemented by Windows Forms application in C++/CLI. The Window Form is used for input of data necessery to simulate the performance of a queing system (M/M/n/K Model or Flow Model).
+This is a Windows application developed using the Windows Forms framework in C++/CLI. The application utilizes a graphical user interface (GUI) created with Windows Forms to gather the required input data for simulating the performance of a queuing system. The queuing system can be modeled using either the M/M/n/K model or the Flow Model.
 
-The algorithm for simulating the queing system is written in C++ using OOP paradigm.
+The simulation algorithm for the queuing system is implemented in C++ using the Object-Oriented Programming (OOP) paradigm.
 
-The files of the App include the header and cpp file for the algorithm of the simulation. The input to the SimulationModels.cpp is fed through the Window Form.
-The Window Form is defined in Myform.h and its functionalities in the MyForm.cpp.
+The application is composed of several files. These include the header and cpp files for the simulation algorithm. The input required for the SimulationModels.cpp file is obtained through the Windows Form interface. The structure of the Windows Form is defined in MyForm.h, and its corresponding functionalities are implemented in the MyForm.cpp file. This separation allows for a clear organization of the GUI design and the simulation logic.
 
 ## Running the App
 
-In order to build the app you have to perform the following steps:
+To successfully build and deploy the application, follow these steps:
 
-  -Install Microsoft Visual Studio (not vs code)
+1. **Install Microsoft Visual Studio (not VS Code)**.
+   
+2. **Install the following workloads**:
+   - "Desktop development with C++"
+   - ".NET desktop development"
 
-  -Intstall the workload of "Desktop development with C++" and ".NET desktop development"
+3. **Open the project file**:
+   Launch Microsoft Visual Studio and open the project file named "Simulation_App.sln".
 
-  -Open the project file "Simulation_App.sln"
+4. **Build the App**:
+   Build the application by clicking on the Play button located at the top of the IDE.
 
-  -Build the App using the Play button at the top.
+By following these steps, you can effectively set up and utilize the Simulation App for simulating queuing system performance.
 
