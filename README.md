@@ -11,7 +11,7 @@ The application is composed of several files. These include the header and cpp f
 
 To successfully build and deploy the application, follow these steps:
 
-1. **Install Microsoft Visual Studio (not VS Code)**.
+1. **Install Microsoft Visual Studio (_NOT_ VS Code)**.
    
 2. **Install the following workloads**:
    - "Desktop development with C++"
