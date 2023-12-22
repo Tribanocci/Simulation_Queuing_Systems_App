@@ -6,7 +6,7 @@ This is a Windows application developed using the Windows Forms framework in C++
 The simulation algorithm for the queuing system is implemented in C++ using the Object-Oriented Programming (OOP) paradigm.
 
 The application is composed of several files. These include the header and cpp files for the simulation algorithm. The input required for the SimulationModels.cpp file is obtained through the Windows Form interface. The structure of the Windows Form is defined in MyForm.h, and its corresponding functionalities are implemented in the MyForm.cpp file. This separation allows for a clear organization of the GUI design and the simulation logic.
-## Purpose of **Enhance_UI branch
+## Purpose of **Enhance_UI branch**
 In this branch, a new project of developing an more appealing and modern UI interface with Ribbon (imported from Fluent.Ribbon repo) will take place
 
 ## Running the App
