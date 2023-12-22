@@ -7,23 +7,23 @@ The simulation algorithm for the queuing system is implemented in C++ using the 
 
 The application is composed of several files. These include the header and cpp files for the simulation algorithm. The input required for the SimulationModels.cpp file is obtained through the Windows Form interface. The structure of the Windows Form is defined in MyForm.h, and its corresponding functionalities are implemented in the MyForm.cpp file. This separation allows for a clear organization of the GUI design and the simulation logic.
 ## Purpose of **Enhance_UI branch**
-In this branch, a new project of developing an more appealing and modern UI interface with Ribbon imported from [Fluent.Ribbon](https://github.com/fluentribbon/Fluent.Ribbon) repo, will take place
+In this branch, a new project of developing a more appealing and modern UI interface with Ribbon, imported from [Fluent.Ribbon](https://github.com/fluentribbon/Fluent.Ribbon) repo, will take place. 
 
-## Running the App
+### Project steps
 
-To successfully build and deploy the application, follow these steps:
+The process of the UI enhancement, follow these steps:
 
-1. **Install Microsoft Visual Studio (_NOT_ VS Code)**.
+1. **Import Fluent.Ribbon and incoporate tags**.
    
-2. **Install the following workloads**:
-   - "Desktop development with C++"
-   - ".NET desktop development"
+2. **Connect the back-end algorithm of the system's simulation with the App UI**:
+   - "Input Data through graphical interface."
+   - "Output result representation."
 
-3. **Open the project file**:
-   Launch Microsoft Visual Studio and open the project file named "Simulation_App.sln".
+3. **Documentation and graphical interface for user-friendly App**:
+   Addition of tooltips and graphical ibjects for making the input data more intuitive.
 
-4. **Build the App**:
-   Build the application by clicking on the Play button located at the top of the IDE.
+4. **Add new features and capabilities**:
+   Explore posibilities for further enhancement.
 
-By following these steps, you can effectively set up and utilize the Simulation App for simulating queuing system performance.
+
 
